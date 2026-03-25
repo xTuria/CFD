@@ -1,15 +1,12 @@
-La carpeta OneD contiene scripts y funciones que he actualizado hoy
-respecto a las que ya tenía. Creo que las he hecho un poco más 
-manejables, pues como estaba antes era intratable.
+ Compact Finite Difference Derivatives in Python
 
-la carpeta TwoD contiene scripts y funciones SIN actualizar, es decir,
-empleando los métodos de cálculo 1D que tenía antes. Te envío esto para 
-que lo tengas y lo puedas ir mirando. Yo voy a actualizar, como he hecho 
-en 1D, el 2D acoplado.
+This project demonstrates the implementation of compact finite difference
+schemes for numerical differentiation in one dimension.
 
-Cualquier cosa que haga falta, me mandas un mail y trato de resolverlo 
-lo antes posible. 
+The goal is to reproduce the MATLAB example used in our work and gradually
+build a reusable Python class that constructs the differentiation matrices
+once and can then be used to compute derivatives of many fields efficiently.
 
-Un Saludo!!
+The implementation follows the methodology used in 
 
-Alfonso
+"High-Order Compact Finite Difference Methods: Theory, Implementation and Applications" by Arroyo-Ramo, PÃ©rez-Quiles and Hoyas
